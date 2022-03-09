@@ -1,0 +1,25 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "create-block/record-loom",
+	"version": "0.1.0",
+	"title": "Record Loom",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Easily record Looms within your Wordpress editor!",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "record-loom",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"attributes": {
+		"loomVideo": {
+			"type": "object"
+		},
+		"loomEmbedHTML": {
+			"type": "string"
+		}
+	}
+}
